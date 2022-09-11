@@ -1,7 +1,9 @@
 # quantum-circuit-for-solving-differential-equation
-implementation</br>
 Use quantum circuit as function approximator and construct the differential equation via parameter-shift rule.</br>
 Finally, compute the mean square error loss and use Adam to optimize the circuit.</br></br>
+Check learning_process.gif to know how the quantum circuit learn to approximate the solution.</br>
+You can get a better convergence if you fine-tune the hyperparameters.</br></br>
+
 Pakage:</br>
 PennyLane, Pytorch, NumPy, Matplotlib</br></br>
 Reference:</br>
